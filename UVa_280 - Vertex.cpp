@@ -26,7 +26,7 @@ int main()
 //#ifndef ONLINE_JUDGE
 //    freopen("in.txt", "r", stdin);
 //#endif // ONLINE_JUDGE
-//    int n,ts;
+    int n,ts;
     while(scanf("%d",&n),n)
     {
         graph.assign(n+1, vector <int> ());
