@@ -8,7 +8,7 @@ int main()
         int crry=0,x=0;
         while(a>0 || b>0)
         {
-            int x=(a%10+b%10+x)/10;
+            x=(a%10+b%10+x)/10;
             crry+=x;
             a/=10, b/=10;
         }
